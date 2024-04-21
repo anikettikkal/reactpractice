@@ -1,9 +1,13 @@
-
+import Home from './Home.jsx'
 
 function App() {
 
   return (
-    <h1>aniket tikkal</h1>
+    <>
+      <Home/>
+      <h1>aniket tikkal</h1>
+    </>
+
   )
 }
 
