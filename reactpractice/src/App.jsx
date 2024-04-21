@@ -1,10 +1,13 @@
-import Home from './Home.jsx'
+
+import Login from './Login.jsx'
+import Signup from './Signup.jsx'
 
 function App() {
 
   return (
     <>
-      <Home/>
+      <Login/>
+      <Signup/>
       <h1>aniket tikkal</h1>
     </>
 
