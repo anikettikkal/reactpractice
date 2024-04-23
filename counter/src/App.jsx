@@ -11,15 +11,16 @@ function App() {
     setCounter(counter+1)
   }
 
-  const removeValue = () => {
+  const removeCounter = () => {
+
     setCounter(counter-1)
   }
 
   return (
     <>
-      <h1>counter value : {counter}</h1>
+      <h1>Counter Value : {counter}</h1>
       <button onClick={addValue}>AddCounter</button>
-      <button onClick={removeValue}>RemoveCounter</button>
+      <button onClick={removeCounter}>RemoveCounter</button>
     </>
   )
 }
